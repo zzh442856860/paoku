@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <layer name="块层 1" width="200" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEKwCAMBVBx7GF6/+N1cbKkOpRGy3sQEAc1kI+lAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAb6utgLuj1ZPzi4eQqm5YUQ/9XrSeOTfKx+gt/MuxYUU99HvReubc0V0z/wv7y551+WBl2bMuH6wse9blg5Vlz7p8sLILah0M7w==
+  </data>
+ </layer>
+ <objectgroup name="Role" width="200" height="50">
+  <object name="player" x="129" y="1411"/>
+  <object name="gold" x="1120" y="1376"/>
+ </objectgroup>
+ <objectgroup name="Collision" width="200" height="50">
+  <object name="ground" x="0" y="1413" width="1440" height="204"/>
+  <object name="ground" x="1569" y="1416" width="61" height="187"/>
+  <object name="ground" x="1728" y="1416" width="33" height="184"/>
+  <object name="ground" x="1825" y="1413" width="31" height="197"/>
+  <object name="ground" x="1921" y="1412" width="221" height="213"/>
+  <object name="ground" x="2241" y="1352" width="64" height="252"/>
+  <object name="ground" x="2435" y="1415" width="125" height="207"/>
+ </objectgroup>
+ <objectgroup name="Items" width="200" height="50">
+  <object name="gold" x="888" y="1279"/>
+  <object name="gold" x="987" y="1321"/>
+  <object name="gold" x="1092" y="1252"/>
+  <object name="gold" x="832" y="1312"/>
+  <object name="gold" x="640" y="1312"/>
+  <object name="gold" x="547" y="1205"/>
+  <object name="gold" x="480" y="1312"/>
+  <object name="gold" x="1604" y="1332"/>
+  <object name="gold" x="1739" y="1383"/>
+  <object name="gold" x="1840" y="1375"/>
+  <object name="gold" x="2060" y="1315"/>
+  <object name="gold" x="2391" y="1267"/>
+  <object x="384" y="1248"/>
+  <object name="gold" x="416" y="1248"/>
+  <object name="gold" x="448" y="1248"/>
+  <object name="gold" x="480" y="1248"/>
+  <object name="gold" x="512" y="1248"/>
+  <object name="gold" x="384" y="1248"/>
+ </objectgroup>
+</map>
